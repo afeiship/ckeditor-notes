@@ -1,0 +1,2 @@
+# squid-notes
+> Squid proxy.
