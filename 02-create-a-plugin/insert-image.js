@@ -17,7 +17,6 @@ export class InsertImage extends Plugin {
       // Callback executed once the image is clicked.
       view.on('execute', () => {
         const imageURL = prompt('Image URL');
-        console.log('imageURL:', imageURL);
         editor.model.change(writer => {
           const imageElement = writer.createElement('imageBlock', {
             src: imageURL
