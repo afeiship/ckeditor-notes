@@ -1,0 +1,17 @@
+{
+  "name": "02-create-a-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "afeiship",
+  "license": "ISC",
+  "dependencies": {
+    "@ckeditor/ckeditor5-core": "^31.0.0",
+    "@ckeditor/ckeditor5-image": "^31.0.0",
+    "@ckeditor/ckeditor5-ui": "^31.0.0"
+  }
+}

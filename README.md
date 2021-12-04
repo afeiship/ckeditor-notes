@@ -1,2 +1,2 @@
-# squid-notes
-> Squid proxy.
+# ckeditor-notes
+> Ckeditor notes.
