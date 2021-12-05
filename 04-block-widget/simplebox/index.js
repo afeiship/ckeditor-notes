@@ -1,4 +1,4 @@
-// simplebox/simplebox.js
+// simplebox/index.js
 
 import SimpleBoxEditing from './editing';
 import SimpleBoxUI from './ui';
