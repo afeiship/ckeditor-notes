@@ -44,9 +44,8 @@ export default class extends Plugin {
 
       // Execute the command when the dropdown item is clicked (executed).
       this.listenTo(dropdownView, 'execute', evt => {
-        console.log('execute:', evt, evt.source.commandParam);
-        // editor.execute('placeholder', { value: evt.source.commandParam });
-        // editor.editing.view.focus();
+        editor.execute('placeholder', { value: evt.source.commandParam });
+        editor.editing.view.focus();
       });
 
       return dropdownView;
