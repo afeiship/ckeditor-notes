@@ -29,11 +29,9 @@ export default class extends Plugin {
     const editor = this.editor;
     const t = editor.t;
     const names = editor.config.get('placeholderConfig.types');
-    console.log('names:', names);
 
     editor.ui.componentFactory.add('placeholder', locale => {
       const dropdownView = createDropdown(locale);
-      console.log(dropdownView);
       addListToDropdown(dropdownView, getDropdownItemsDefinitions(names));
       dropdownView.buttonView.set({
         // The t() function helps localize the editor. All strings enclosed in t() can be
