@@ -11,7 +11,7 @@
   "author": "afeiship",
   "license": "ISC",
   "dependencies": {
-    "@ckeditor/ckeditor5-basic-styles": "^31.0.0",
+    "@ckeditor/ckeditor5-basic-styles": "^31.1.0",
     "@ckeditor/ckeditor5-dev-utils": "^26.1.0",
     "@ckeditor/ckeditor5-editor-classic": "^31.0.0",
     "@ckeditor/ckeditor5-essentials": "^31.0.0",
