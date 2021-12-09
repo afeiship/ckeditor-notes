@@ -18,9 +18,9 @@ export default class extends Plugin {
       view.set({
         label: t('Tag'),
         keystroke: 'CTRL+K',
-        tooltip: true,
+        // tooltip: true,
         withText: true,
-        isToggleable: true
+        // isToggleable: true
       });
 
       view.bind('isOn', 'isEnabled').to(command, 'value', 'isEnabled');
