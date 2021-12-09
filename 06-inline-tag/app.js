@@ -3,6 +3,7 @@ import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
 import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
+import CKEditorInspector from '@ckeditor/ckeditor5-inspector';
 import InlineTag from './src';
 
 ClassicEditor
@@ -15,6 +16,7 @@ ClassicEditor
   })
   .then(editor => {
     console.log('Editor was initialized', editor);
+    CKEditorInspector.attach( editor );
     window.editor = editor;
   })
   .catch(error => {

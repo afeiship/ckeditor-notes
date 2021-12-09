@@ -7,6 +7,9 @@
     "name": "afeiship",
     "email": "1290657123@qq.com"
   },
+  "scripts": {
+    "dev": "cd 06-inline-tag && npm run dev"
+  },
   "license": "MIT",
   "publishConfig": {
     "access": "public",

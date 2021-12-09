@@ -15,6 +15,7 @@
     "@ckeditor/ckeditor5-dev-utils": "^26.1.0",
     "@ckeditor/ckeditor5-editor-classic": "^31.0.0",
     "@ckeditor/ckeditor5-essentials": "^31.0.0",
+    "@ckeditor/ckeditor5-inspector": "^2.3.0",
     "@ckeditor/ckeditor5-paragraph": "^31.0.0",
     "@ckeditor/ckeditor5-theme-lark": "^31.0.0"
   },
