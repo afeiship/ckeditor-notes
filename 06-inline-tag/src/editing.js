@@ -11,10 +11,6 @@ export default class extends Plugin {
 
     // Allow italic attribute on text nodes.
     editor.model.schema.extend('$text', { allowAttributes: 'tag' });
-    editor.model.schema.setAttributeProperties('tag', {
-      isFormatting: true,
-      copyOnEnter: true
-    });
 
     editor.conversion.attributeToElement({
       model: 'tag',
