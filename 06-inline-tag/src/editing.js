@@ -23,7 +23,7 @@ export default class extends Plugin {
     // Create italic command.
     editor.commands.add('tag', new AttributeCommand(editor, 'tag'));
 
-    // Set the Ctrl+I keystroke.
+    // Set the Ctrl+K keystroke.
     editor.keystrokes.set('CTRL+K', 'tag');
   }
 }
