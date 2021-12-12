@@ -13,12 +13,16 @@ export default class extends Plugin {
     editor.model.schema.extend('$text', { allowAttributes: 'tag' });
 
     editor.conversion.attributeToElement({
-      model: 'tag',
+      model: {
+        key: 'tag',
+        name: '$text',
+      },
       view: {
         name: 'span',
         classes: 'ck-tag'
       }
     });
+
 
     // Create italic command.
     editor.commands.add('tag', new AttributeCommand(editor, 'tag'));
